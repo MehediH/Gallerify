@@ -11,7 +11,7 @@ and lets you have control over the look of the galleries.
 
 It's available for free, so don't forget to try it now!
 
-**<a href="wmpoweruser.com/windows-10-mobile-build-10158-screenshots/" target="_blank">LIVE DEMO</a> - <a href="https://wordpress.org/support/view/plugin-reviews/gallerify" target="_self">LEAVE A REVIEW</a>**
+**<a href="http://wmpoweruser.com/windows-10-mobile-build-10158-screenshots/" target="_blank">LIVE DEMO</a> - <a href="https://wordpress.org/support/view/plugin-reviews/gallerify" target="_self">LEAVE A REVIEW</a>**
 
 #### Features
 
