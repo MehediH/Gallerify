@@ -65,7 +65,12 @@
 					<hr />
 
 					<div class="gallerify-plugin-details">
-						<h2 class="header">Changelog<span>Latest version: 1.0</span></h2>
+						<h2 class="header">Changelog<span>Latest version: 1.1</span></h2>
+						<p>Version 1.1</p>
+						<ul class="collection">
+							<li class="collection-item">Fixed some responsiveness issues</li>
+						</ul>
+						<hr />
 						<p>Version 1.0</p>
 						<ul class="collection">
 							<li class="collection-item">Initial Release</li>

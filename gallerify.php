@@ -4,7 +4,7 @@
  * Plugin Name: Gallerify
  * Plugin URI: https://wordpress.org/plugins/gallerify/
  * Description: A faster gallery plugin for WordPress
- * Version: 1.0
+ * Version: 1.1
  * Author: imehedidip
  * Author URI: http://twitter.com/mehedih_
  * Text Domain: gallerify
@@ -138,7 +138,7 @@ function gallerify_shortcode($atts, $content = null) {
 			$trackpad = "true";
 		}
 
-	$output = '<div class="gallerify-container"><h3 class="gallerify-block-title">Gallery'.$gallerify_title.'</h3><div class="gallerify" data-allowfullscreen="'.$fullscreen.'" data-nav="'.$nav.'" data-keyboard="'.$keys.'"  data-autoplay="'.$autoplay.'" data-trackpad="'.$trackpad.'" data-width="100%" data-ratio="800/600">';
+	$output = '<div class="gallerify-container"><h3 class="gallerify-block-title">Gallery'.$gallerify_title.'</h3><div class="gallerify" data-allowfullscreen="'.$fullscreen.'" data-nav="'.$nav.'" data-keyboard="'.$keys.'"  data-autoplay="'.$autoplay.'" data-trackpad="'.$trackpad.'" data-width="100%">';
 	foreach ($origImageSrc as $gimage) {
 		$output .= '<img src="'.$gimage.'"/>';
 	}
@@ -226,7 +226,7 @@ function gallerify_replace_wp_gallery($output, $attr) {
 			$trackpad = "true";
 		}
 
-		$output = '<div class="gallerify-container"><h3 class="gallerify-block-title">Gallery'.$gallerify_title.'</h3><div class="gallerify" data-allowfullscreen="'.$fullscreen.'" data-nav="'.$nav.'" data-keyboard="'.$keys.'"  data-autoplay="'.$autoplay.'" data-trackpad="'.$trackpad.'" data-width="100%" data-ratio="800/600">';
+		$output = '<div class="gallerify-container"><h3 class="gallerify-block-title">Gallery'.$gallerify_title.'</h3><div class="gallerify" data-allowfullscreen="'.$fullscreen.'" data-nav="'.$nav.'" data-keyboard="'.$keys.'"  data-autoplay="'.$autoplay.'" data-trackpad="'.$trackpad.'" data-width="100%">';
 
 	    foreach ($attachments as $id => $attachment) {
 	        $img = wp_get_attachment_image_src($id, 'full');

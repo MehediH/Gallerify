@@ -2,7 +2,7 @@
 
 ##### A faster gallery plugin for WordPress
 
-![Alt text](http://i.imgur.com/xWEL7II.png "A faster gallery plugin for WordPress")
+<a href="https://github.com/MehediH/Gallerify">![Alt text](http://i.imgur.com/xWEL7II.png "A faster gallery plugin for WordPress")</a>
 
 #### Description
 
